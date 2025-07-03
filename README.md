@@ -4,9 +4,9 @@
 This Project is a part of Codtech Blockchain Internship.
 
 ## Requirements:
--1.Ganache
--2.Truffle
--3.Node.js
+- 1.Ganache
+- 2.Truffle
+- 3.Node.js
 
 ## Deployment Steps:
 -1.Install truffle
