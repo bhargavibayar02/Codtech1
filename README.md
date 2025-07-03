@@ -21,8 +21,7 @@ truffle init
    ```
 - 3.Install Ganache
 
-- 4.Create a file in Contracts/
-SimpleToken.sol
+- 4.Create a file in Contracts/SimpleToken.sol
  ``` 
    // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -52,8 +51,7 @@ contract SimpleToken {
     }
 }
 ```
-- 5.Create file in migrations/:
-2_deploy_tokens.js
+- 5.Create file in migrations/2_deploy_tokens.js
 ```
 const SimpleToken = artifacts.require("SimpleToken");
 
