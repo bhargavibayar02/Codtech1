@@ -21,7 +21,7 @@ truffle init
    ```
 - 3.Install Ganache
 
-- 4.Create a file in Contracts/SimpleToken.sol
+- 4.Create a file in contracts/SimpleToken.sol
  ``` 
    // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
