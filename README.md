@@ -9,19 +9,19 @@ This Project is a part of Codtech Blockchain Internship.
 - 3.Node.js
 
 ## Deployment Steps:
--1.Install truffle
+- 1.Install truffle
   ``` 
    npm install -g truffle
    ```
--2.Create project folders and initialize
+- 2.Create project folders and initialize
  ``` 
    mkdir simple-token
  cd simple-token
 truffle init
    ```
--3.Install Ganache
+- 3.Install Ganache
 
--4.Create a file in Contracts/
+- 4.Create a file in Contracts/
 SimpleToken.sol
  ``` 
    // SPDX-License-Identifier: MIT
@@ -51,16 +51,16 @@ contract SimpleToken {
         return true;
     }
 }
-   ```
--5.Create file in migrations/:
+```
+- 5.Create file in migrations/:
 2_deploy_tokens.js
-  ```
+```
 const SimpleToken = artifacts.require("SimpleToken");
 
 module.exports = function (deployer) {
   deployer.deploy(SimpleToken, 1000); 
 };
-```
+ ```
 6.Configure Ganache in truffle-config.js
 ```
 module.exports = {
@@ -77,13 +77,13 @@ module.exports = {
     }
   }
 };
-```
+ ```
 7.Compile 
  ``` 
    truffle compile 
    ```
--8.Make sure that Ganache is Running
--9.Deploy
+- 8.Make sure that Ganache is Running
+- 9.Deploy
  ``` 
    truffle migrate
    ```
